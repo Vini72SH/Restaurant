@@ -11,47 +11,47 @@ import tomatoImage from "./images/tomato.jpg";
 const pizzas = [
     {
         name: "Sausage",
-        desc: "Some text",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta porttitor nisl nec blandit. Aenean id mi dapibus, volutpat magna sed, hendrerit ante. Donec sed tincidunt dui. Vivamus vitae ante nec libero condimentum fringilla.",
         img: sausageImage
     },
     {
         name: "Portuguese",
-        desc: "Some text",
+        desc: "Curabitur feugiat vehicula consequat. Sed finibus metus ac mauris blandit lacinia. Proin eu ante non est pretium bibendum. In accumsan vitae eros et malesuada. Suspendisse potenti.",
         img: portugueseImage
     },
     {
         name: "Pepper",
-        desc: "Some text",
+        desc: "Nam imperdiet, nunc ut ullamcorper pulvinar, justo mi consectetur turpis, congue cursus felis augue sollicitudin lorem. Vestibulum suscipit varius nulla, vel semper enim vulputate vitae.",
         img: pepperImage
     },
     {
         name: "Pineapple",
-        desc: "Some text",
+        desc: "In hac habitasse platea dictumst. Maecenas maximus sem nec commodo laoreet. Suspendisse ex mi, finibus lobortis augue eu, pretium porttitor enim. Nunc ut rhoncus est, eu sollicitudin metus.",
         img: pineappleImage
     },
     {
         name: "Champignon",
-        desc: "Some text",
+        desc: "In vel risus feugiat, consequat lacus eget, aliquet magna. Fusce a fermentum nibh. Quisque consectetur justo ac est tempor, eget mollis ligula auctor. Vivamus venenatis pulvinar sapien quis congue. Maecenas pharetra sit amet mi eu ultrices.",
         img: champignonImage
     },
     {
         name: "Redpepper",
-        desc: "Some text",
+        desc: "Fusce pretium mauris arcu, quis aliquet ante auctor ac. Vivamus aliquam eu magna sed blandit. Donec vel elit purus. Donec feugiat id nunc sed egestas.",
         img: redpepperImage
     },
     {
         name: "Broccoli",
-        desc: "Some text",
+        desc: "Pellentesque faucibus dictum tortor non vestibulum. Praesent fermentum ex et magna consequat, quis mollis dolor accumsan. Sed lacinia euismod ipsum eu dignissim. Sed at consectetur nisl.",
         img: broccoliImage
     },
     {
         name: "Shrimp",
-        desc: "Some text",
+        desc: "Nam non tortor vel justo vulputate faucibus sed non magna. Duis ipsum purus, viverra sed sagittis sed, vehicula at tortor. Morbi dapibus justo sed dui consequat, pharetra tempus diam accumsan.",
         img: shrimpImage
     },
     {
         name: "Tomato",
-        desc: "Some text",
+        desc: "Curabitur id nibh tristique, sollicitudin justo quis, congue sapien. Ut eu molestie odio. Curabitur semper vulputate sem, in faucibus ante malesuada pellentesque. Cras ullamcorper eu mauris ut condimentum. Sed venenatis, mi eu tincidunt vulputate, elit augue ullamcorper nulla, eget tincidunt lectus magna in neque.",
         img: tomatoImage
     }
 ];
@@ -69,6 +69,7 @@ export function loadMenuPage(content) {
         const h1Text = document.createElement("h1");
         const desc = document.createElement("p");
 
+        divText.className = "grid-text";
         gridItem.className = "grid-item";
 
         let pizza = pizzas[i];
