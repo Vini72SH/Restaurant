@@ -55,8 +55,8 @@ body {
 
 .menu-grid {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2%;
     padding: 10px;
     padding-bottom: 5%;
@@ -72,7 +72,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1fr;
+    width: 2fr;
     height: 1fr;
     border: 4px solid black;
     border-radius: 10px;
